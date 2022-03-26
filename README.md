@@ -1,8 +1,9 @@
-# Test App (test-tech)
+# Technical test
 
-A Quasar Project
+A technical test made with quasar, see [assignment](assignment.md).
 
 ## Install the dependencies
+
 ```bash
 yarn
 # or
@@ -10,32 +11,39 @@ npm install
 ```
 
 ### Start the app in development mode (hot-code reloading, error reporting, etc.)
+
 ```bash
 quasar dev
 ```
 
-
 ### Lint the files
+
 ```bash
 yarn lint
 # or
 npm run lint
 ```
 
-
 ### Format the files
+
 ```bash
 yarn format
 # or
 npm run format
 ```
 
-
-
 ### Build the app for production
+
 ```bash
 quasar build
 ```
 
 ### Customize the configuration
+
 See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-webpack/quasar-config-js).
+
+### Tech stack
+- Quasar
+- Typescript
+- Vue/Vuex
+- Webpack

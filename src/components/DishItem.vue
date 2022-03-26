@@ -36,13 +36,7 @@
           </q-card-section>
           <q-separator />
           <q-card-section
-            class="
-              bg-primary bg-grey-3
-              confirm-card-message
-              row
-              justify-center
-              items-center
-            "
+            class="bg-primary bg-grey-3 confirm-card-message row justify-center items-center"
           >
             <span class="q-ml-sm"
               >Êtes-vous sûr de vouloir supprimer ce plat ?</span
