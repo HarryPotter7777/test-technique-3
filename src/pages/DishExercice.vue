@@ -48,8 +48,15 @@ export default defineComponent({
 
     handleNewDish(dish: DishModel) {
       this.showFormDish = false;
-      // mock dish id
-      if (dish.id === 0) dish.id = this.dishes.length + 1;
+      // mock a dish id
+      if (dish.id === 0) {
+        let id = 0;
+        // find last dish id
+        this.dishes.forEach((dish: DishModel) => {
+          if (dish.id > id) id = dish.id;
+        });
+        dish.id = id + 1;
+      }
       this.add(dish);
     },
 

@@ -4,8 +4,9 @@ import DishModel from '../../models/dish';
 
 const mutation: MutationTree<DishStateInterface> = {
     add(state: DishStateInterface, payload: DishModel) {
-        if (!state.dishes.find(dish => dish.id === payload.id))
+        if (!state.dishes.find(dish => dish.id === payload.id)) {
             state.dishes.push(payload);
+        }
     },
 
     update(state: DishStateInterface, payload: DishModel) {
